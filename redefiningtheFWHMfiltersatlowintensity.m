@@ -1,5 +1,5 @@
 % Redefing maxInt filters for the B1AR data
-function [B1AR,maxInt] = redefiningtheFWHMfiltersatlowintensity(B1AR,dz)
+function [B1AR,maxInt] = DensityPlotting(B1AR,dz)
     %Definition of MaxInt and ZPOS! :)
     maxInt = imgaussfilt(B1AR.outputs.maxInt,1);
     zPos = B1AR.results.zValueAvg;
