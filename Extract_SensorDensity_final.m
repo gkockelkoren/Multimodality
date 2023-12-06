@@ -365,7 +365,7 @@ end
     save('nom.mat','nom');
     save('B1ARdata.mat','B1ARdata');
     save('results.mat','results');
-%%
+%% Plot data
 
 Cell=APO.B1AR(p);
 [B1AR,maxInt] = DensityPlotting(Cell,dz);
