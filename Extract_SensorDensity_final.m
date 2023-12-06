@@ -382,8 +382,6 @@ surface(ratio,'EdgeColor','k')
 axis image
 colormap([parula])
 caxis([15 40])
-xlim([62 136])
-ylim([102 173])
 cbh = colorbar ; %Create Colorbar
 cbh.Ticks = [15 30 45]; %Create 8 ticks from zero to 1
 cbh.TickLabels = {'15','30','45'} ;
