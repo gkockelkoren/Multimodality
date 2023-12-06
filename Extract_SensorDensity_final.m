@@ -368,7 +368,7 @@ end
 %%
 
 Cell=APO.B1AR(p);
-[B1AR,maxInt] = redefiningtheFWHMfiltersatlowintensity(Cell,dz);
+[B1AR,maxInt] = DensityPlotting(Cell,dz);
 Cell=[];
 a=APO.results(p).maxInt;
 ratio=a./maxInt;
